@@ -1,0 +1,7 @@
+site_name: Test Application for AirFlow demo
+
+theme:
+  name: material
+
+plugins:
+  - mkdocstrings
