@@ -12,7 +12,7 @@ def main(verbose):
 
 
 @main.command()
-@click.argument("some_int_param", type=int, default=5)
+@click.option("-i", "--some_int_param", type=int, default=5)
 def run(some_int_param):
     logger.info(f"Printing int '{some_int_param}'")
     print(some_int_param)
