@@ -1,2 +1,2 @@
-def crucial_test():
+def test_crucial():
     assert True
